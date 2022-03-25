@@ -1,0 +1,36 @@
+#dependencies
+dist/node_modules
+dist/.pnp
+dist/.pnp.js
+
+#testing
+dist/coverage
+
+#production
+dist/build
+
+#misc
+dist/.env.local
+dist/.env.development.local
+dist/.env.test.local
+dist/.env.production.local
+
+dist/npm-debug.log*
+dist/yarn-debug.log*
+dist/yarn-error.log*
+
+# Logs and databases #
+######################
+dist/*.log
+dist/*.sql
+dist/*.sqlite
+
+# OS generated files #
+######################
+dist/.DS_Store
+dist/.DS_Store?
+dist/._*
+dist/.Spotlight-V100
+dist/.Trashes
+dist/ehthumbs.db
+dist/Thumbs.db
